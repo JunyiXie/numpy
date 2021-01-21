@@ -1092,3 +1092,9 @@ typedef npy_int64 npy_datetime;
 /* End of typedefs for numarray style bit-width names */
 
 #endif
+
+#undef HAVE_XMMINTRIN_H
+#undef HAVE_EMMINTRIN_H
+#undef NPY_HAVE_SSE_INTRINSICS
+#undef NPY_HAVE_SSE2_INTRINSICS
+#undef EINSUM_USE_SSE1

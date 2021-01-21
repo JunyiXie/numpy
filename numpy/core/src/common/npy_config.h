@@ -7,6 +7,8 @@
 #include "numpy/npy_cpu.h"
 #include "numpy/npy_os.h"
 
+#undef HAVE_FEATURES_H
+
 /* blacklist */
 
 /* Disable broken Sun Workshop Pro math functions */
